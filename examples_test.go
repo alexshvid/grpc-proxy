@@ -1,12 +1,12 @@
 // Copyright 2017 Michal Witkowski. All Rights Reserved.
 // See LICENSE for licensing terms.
 
-package proxy_test
+package grpc_proxy_test
 
 import (
 	"strings"
 
-	"github.com/mwitkow/grpc-proxy/proxy"
+	 proxy "github.com/alexshvid/grpc-proxy"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

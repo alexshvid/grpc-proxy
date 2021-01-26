@@ -1,7 +1,7 @@
 // Copyright 2017 Michal Witkowski. All Rights Reserved.
 // See LICENSE for licensing terms.
 
-package proxy_test
+package grpc_proxy_test
 
 import (
 	"io"
@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mwitkow/grpc-proxy/proxy"
+	proxy "github.com/alexshvid/grpc-proxy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
@@ -24,7 +24,7 @@ import (
 
 	"fmt"
 
-	pb "github.com/mwitkow/grpc-proxy/testservice"
+	pb "github.com/alexshvid/grpc-proxy/testservice"
 )
 
 const (
